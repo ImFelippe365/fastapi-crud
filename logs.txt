@@ -131,3 +131,129 @@ QueryParams:
 PathParams: {}
 Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '94', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
 -----------------------------------------------------------
+------------ LOG (2023-10-02 21:04:02.319345) ------------
+URL: http://127.0.0.1:8000/
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:04:03.981666) ------------
+URL: http://127.0.0.1:8000/docs
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-purpose': 'prefetch;prerender', 'purpose': 'prefetch', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:04:04.360178) ------------
+URL: http://127.0.0.1:8000/openapi.json
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json,*/*', 'sec-purpose': 'prefetch;prerender', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'purpose': 'prefetch', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:08:59.215344) ------------
+URL: http://127.0.0.1:8000/docs
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:08:59.436604) ------------
+URL: http://127.0.0.1:8000/openapi.json
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:10:06.810540) ------------
+URL: http://127.0.0.1:8000/docs
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:10:06.920200) ------------
+URL: http://127.0.0.1:8000/openapi.json
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:10:21.316875) ------------
+URL: http://127.0.0.1:8000/docs
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:10:21.437601) ------------
+URL: http://127.0.0.1:8000/openapi.json
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:10:34.250552) ------------
+URL: http://127.0.0.1:8000/docs
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:10:34.380975) ------------
+URL: http://127.0.0.1:8000/openapi.json
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:11:26.235888) ------------
+URL: http://127.0.0.1:8000/students/felippe?name=felps&email=felpal&course=asda&period=1&age=2
+Method: PUT
+QueryParams: name=felps&email=felpal&course=asda&period=1&age=2
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '0', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:12:46.361900) ------------
+URL: http://127.0.0.1:8000/docs
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:12:46.570637) ------------
+URL: http://127.0.0.1:8000/openapi.json
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:13:03.101259) ------------
+URL: http://127.0.0.1:8000/docs
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:13:03.232112) ------------
+URL: http://127.0.0.1:8000/openapi.json
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:13:03.972749) ------------
+URL: http://127.0.0.1:8000/docs
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------
+------------ LOG (2023-10-02 21:13:04.102723) ------------
+URL: http://127.0.0.1:8000/openapi.json
+Method: GET
+QueryParams: 
+PathParams: {}
+Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Opera GX";v="102"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'})
+-----------------------------------------------------------

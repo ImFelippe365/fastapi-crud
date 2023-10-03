@@ -1,11 +1,13 @@
 from typing import Union
-from fastapi import FastAPI, HTTPException, status, Request, BackgroundTasks
+from fastapi import FastAPI, HTTPException, status, Request, BackgroundTasks, Depends
 from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 from uuid import UUID, uuid1
 from app.models.Student import Student, CreateStudent
 from datetime import datetime
 from asyncio import sleep
+
+
 app = FastAPI()
 
 students = {}
@@ -66,7 +68,7 @@ def create_student(student: Student, bg_task: BackgroundTasks):
     return HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail={'details': 'Body cannot be empty'})
 
 @app.put("/students/{student_name}")
-def update_student(student_name: str, data: Student):
+def update_student(student_name: str, data: Student = Depends(Student)):
     if student_name and data:
         updated_student = CreateStudent(id=uuid1(), name=data.name, email=data.email, course=data.course, period=data.period, age=data.age)
         students[student_name] = updated_student
